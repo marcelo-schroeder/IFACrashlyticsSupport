@@ -1,0 +1,87 @@
+PODS:
+  - CrashlyticsFramework (2.2.0)
+  - DTFoundation (1.6.2):
+    - DTFoundation/AppKit
+    - DTFoundation/Core
+    - DTFoundation/DTASN1
+    - DTFoundation/DTAWS
+    - DTFoundation/DTHTMLParser
+    - DTFoundation/DTReachability
+    - DTFoundation/DTSidePanel
+    - DTFoundation/DTSQLite
+    - DTFoundation/DTUTI
+    - DTFoundation/DTZipArchive
+    - DTFoundation/UIKit
+    - DTFoundation/UIKit_BlocksAdditions
+  - DTFoundation/Core (1.6.2)
+  - DTFoundation/DTASN1 (1.6.2):
+    - DTFoundation/Core
+  - DTFoundation/DTAWS (1.6.2):
+    - DTFoundation/Core
+  - DTFoundation/DTHTMLParser (1.6.2):
+    - DTFoundation/Core
+  - DTFoundation/DTReachability (1.6.2)
+  - DTFoundation/DTSidePanel (1.6.2):
+    - DTFoundation/UIKit
+  - DTFoundation/DTSQLite (1.6.2)
+  - DTFoundation/DTUTI (1.6.2)
+  - DTFoundation/DTZipArchive (1.6.2):
+    - DTFoundation/DTZipArchive/Minizip
+  - DTFoundation/DTZipArchive/Minizip (1.6.2)
+  - DTFoundation/UIKit (1.6.2):
+    - DTFoundation/Core
+  - DTFoundation/UIKit_BlocksAdditions (1.6.2):
+    - DTFoundation/Core
+  - FlurrySDK (5.0.0):
+    - FlurrySDK/FlurrySDK
+  - FlurrySDK/FlurrySDK (5.0.0)
+  - GustyLib (0.1.2):
+    - GustyLib/Core
+  - GustyLib/Core (0.1.2):
+    - DTFoundation (= 1.6.2)
+    - FlurrySDK
+    - MTStatusBarOverlay (= 0.9.1)
+    - MWFeedParser (= 1.0.1)
+    - ODRefreshControl (= 1.1.0)
+  - IFATestingSupport (0.1.1):
+    - OCHamcrest
+    - OCMock
+  - MTStatusBarOverlay (0.9.1)
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/FeedParser (1.0.1):
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/NSDate+InternetDateTime (1.0.1)
+  - MWFeedParser/NSString+HTML (1.0.1)
+  - OCHamcrest (4.0.1)
+  - OCMock (2.2.4)
+  - ODRefreshControl (1.1.0)
+
+DEPENDENCIES:
+  - CrashlyticsFramework
+  - GustyLib (from `/Users/mschroeder/myfiles/projects/Xcode5/GustyLib/GustyLib_development`)
+  - IFATestingSupport (from `https://bitbucket.org/marcelo_schroeder/ifatestingsupport.git`, tag `0.1.1`)
+
+EXTERNAL SOURCES:
+  GustyLib:
+    :path: /Users/mschroeder/myfiles/projects/Xcode5/GustyLib/GustyLib_development
+  IFATestingSupport:
+    :git: https://bitbucket.org/marcelo_schroeder/ifatestingsupport.git
+    :tag: 0.1.1
+
+SPEC CHECKSUMS:
+  CrashlyticsFramework: 1df72ced1f7744bae1daf141f6e314951a0d9c06
+  DTFoundation: 89bf3fb79a688a793953f2474cae1ba5fdf87fba
+  FlurrySDK: 1fa28436e86e533e51ab1164c43d8f3b5f8ff99f
+  GustyLib: eaeebaceff1d76d00fd8acac492776df53e0ba60
+  IFATestingSupport: f77abed91b3bd8f12cffe6b036cfbc5da8b7e4e7
+  MTStatusBarOverlay: f1fef7143ed3e9ce3d2c6ee3f297079e5cab905f
+  MWFeedParser: 003cbf5398e99a7f2057fbe9583054fd1b84be72
+  OCHamcrest: b464725bbb48d0f1cd9c6f4ec3cb35fe0c4f2b94
+  OCMock: 6db79185520e24f9f299548f2b8b07e41d881bd5
+  ODRefreshControl: 7bc75258d9dba1f93c4e34654d1e4b5aa39529f0
+
+COCOAPODS: 0.33.1

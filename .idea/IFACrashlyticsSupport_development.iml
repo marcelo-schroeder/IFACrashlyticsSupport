@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../GustyLib/GustyLib_development">
+      <sourceFolder url="file://$MODULE_DIR$/../../GustyLib/GustyLib_development" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/.idea">
+      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/IFACrashlyticsSupport">
+      <sourceFolder url="file://$MODULE_DIR$/IFACrashlyticsSupport" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/IFACrashlyticsSupport.xcworkspace">
+      <sourceFolder url="file://$MODULE_DIR$/IFACrashlyticsSupport.xcworkspace" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/IFACrashlyticsSupport/IFACrashlyticsSupport.xcodeproj">
+      <sourceFolder url="file://$MODULE_DIR$/IFACrashlyticsSupport/IFACrashlyticsSupport.xcodeproj" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/Podfile">
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/Pods">
+      <sourceFolder url="file://$MODULE_DIR$/Pods" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
