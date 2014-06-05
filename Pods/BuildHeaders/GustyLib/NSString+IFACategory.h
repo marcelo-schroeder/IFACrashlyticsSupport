@@ -1,1 +1,1 @@
-../../../../../GustyLib/GustyLib_development/GustyLib/GustyLib/Core/classes/NSString+IFACategory.h
+../../GustyLib/GustyLib/GustyLib/Core/classes/NSString+IFACategory.h

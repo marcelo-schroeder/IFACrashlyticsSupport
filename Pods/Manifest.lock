@@ -62,12 +62,13 @@ PODS:
 
 DEPENDENCIES:
   - CrashlyticsFramework
-  - GustyLib (from `/Users/mschroeder/myfiles/projects/Xcode5/GustyLib/GustyLib_development`)
+  - GustyLib (from `https://bitbucket.org/marcelo_schroeder/gustylib.git`, branch `dev_CrashlyticsSupportPodspec`)
   - IFATestingSupport (from `https://bitbucket.org/marcelo_schroeder/ifatestingsupport.git`, tag `0.1.1`)
 
 EXTERNAL SOURCES:
   GustyLib:
-    :path: /Users/mschroeder/myfiles/projects/Xcode5/GustyLib/GustyLib_development
+    :branch: dev_CrashlyticsSupportPodspec
+    :git: https://bitbucket.org/marcelo_schroeder/gustylib.git
   IFATestingSupport:
     :git: https://bitbucket.org/marcelo_schroeder/ifatestingsupport.git
     :tag: 0.1.1
@@ -76,7 +77,7 @@ SPEC CHECKSUMS:
   CrashlyticsFramework: 1df72ced1f7744bae1daf141f6e314951a0d9c06
   DTFoundation: 89bf3fb79a688a793953f2474cae1ba5fdf87fba
   FlurrySDK: 1fa28436e86e533e51ab1164c43d8f3b5f8ff99f
-  GustyLib: eaeebaceff1d76d00fd8acac492776df53e0ba60
+  GustyLib: 0d93d073b8068f1c179c0025c480ca39e9e242a0
   IFATestingSupport: f77abed91b3bd8f12cffe6b036cfbc5da8b7e4e7
   MTStatusBarOverlay: f1fef7143ed3e9ce3d2c6ee3f297079e5cab905f
   MWFeedParser: 003cbf5398e99a7f2057fbe9583054fd1b84be72
