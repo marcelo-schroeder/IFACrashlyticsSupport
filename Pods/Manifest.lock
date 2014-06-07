@@ -32,14 +32,10 @@ PODS:
     - DTFoundation/Core
   - DTFoundation/UIKit_BlocksAdditions (1.6.2):
     - DTFoundation/Core
-  - FlurrySDK (5.0.0):
-    - FlurrySDK/FlurrySDK
-  - FlurrySDK/FlurrySDK (5.0.0)
   - GustyLib (0.1.2):
     - GustyLib/Core
   - GustyLib/Core (0.1.2):
     - DTFoundation (= 1.6.2)
-    - FlurrySDK
     - MTStatusBarOverlay (= 0.9.1)
     - MWFeedParser (= 1.0.1)
     - ODRefreshControl (= 1.1.0)
@@ -62,13 +58,13 @@ PODS:
 
 DEPENDENCIES:
   - CrashlyticsFramework
-  - GustyLib (from `https://bitbucket.org/marcelo_schroeder/gustylib.git`, branch `dev_CrashlyticsSupportPodspec`)
+  - GustyLib (from `https://bitbucket.org/marcelo_schroeder/gustylib.git`, tag `0.1.2`)
   - IFATestingSupport (from `https://bitbucket.org/marcelo_schroeder/ifatestingsupport.git`, tag `0.1.1`)
 
 EXTERNAL SOURCES:
   GustyLib:
-    :branch: dev_CrashlyticsSupportPodspec
     :git: https://bitbucket.org/marcelo_schroeder/gustylib.git
+    :tag: 0.1.2
   IFATestingSupport:
     :git: https://bitbucket.org/marcelo_schroeder/ifatestingsupport.git
     :tag: 0.1.1
@@ -76,8 +72,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CrashlyticsFramework: 1df72ced1f7744bae1daf141f6e314951a0d9c06
   DTFoundation: 89bf3fb79a688a793953f2474cae1ba5fdf87fba
-  FlurrySDK: 1fa28436e86e533e51ab1164c43d8f3b5f8ff99f
-  GustyLib: 0d93d073b8068f1c179c0025c480ca39e9e242a0
+  GustyLib: ebf361c0d6e9ce72803900e0db6e794b9042d838
   IFATestingSupport: f77abed91b3bd8f12cffe6b036cfbc5da8b7e4e7
   MTStatusBarOverlay: f1fef7143ed3e9ce3d2c6ee3f297079e5cab905f
   MWFeedParser: 003cbf5398e99a7f2057fbe9583054fd1b84be72

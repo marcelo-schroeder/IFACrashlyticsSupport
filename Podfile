@@ -4,7 +4,7 @@ xcodeproj 'IFACrashlyticsSupport/IFACrashlyticsSupport.xcodeproj'
 link_with 'IFACrashlyticsSupportTests'
 
 #pod 'GustyLib', :path => '/Users/mschroeder/myfiles/projects/Xcode5/GustyLib/GustyLib_development'
-pod 'GustyLib', :git => 'https://bitbucket.org/marcelo_schroeder/gustylib.git', :branch => 'dev_CrashlyticsSupportPodspec'
+pod 'GustyLib', :git => 'https://bitbucket.org/marcelo_schroeder/gustylib.git', :tag => '0.1.2'
 
 pod 'IFATestingSupport', :git => 'https://bitbucket.org/marcelo_schroeder/ifatestingsupport.git', :tag => '0.1.1'
 
