@@ -1,4 +1,4 @@
-# README #
+# IFACrashlyticsSupport #
 
 A Cocoa Touch static library to make the most of the Crashlytics framework.
 
