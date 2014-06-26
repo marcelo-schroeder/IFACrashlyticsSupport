@@ -24,7 +24,7 @@
 * Configure crash reporting using the Crashlytics framework.
 * Crashlytics API key must be set in the app's main PList using the 'IFACrashlyticsApiKey' key.
 *
-* @param a_userInfo User info dictionary containing key/value pairs that are displayed in the 'Keys' section of a crash report on www.crashlytics.com.
+* @param a_userInfo User info dictionary containing key/value pairs that are displayed in the 'Keys' section of a crash report on www.crashlytics.com. This method will do its best to format the non string values provided appropriately.
 */
 -(void)configureCrashReportingWithUserInfo:(NSDictionary*)a_userInfo;
 

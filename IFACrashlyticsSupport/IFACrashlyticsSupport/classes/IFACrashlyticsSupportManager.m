@@ -58,7 +58,8 @@
 
     // User info
     for (NSString *l_key in a_userInfo.allKeys) {
-        [Crashlytics setObjectValue:a_userInfo[l_key] forKey:l_key];
+        id l_value = [self IFA_formatCrashReportValue:a_userInfo[l_key]];
+        [Crashlytics setObjectValue:l_value forKey:l_key];
     }
 
     NSLog(@"Crash reporting configured");
