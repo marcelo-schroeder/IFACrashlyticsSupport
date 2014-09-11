@@ -53,7 +53,7 @@ PODS:
   - MWFeedParser/NSDate+InternetDateTime (1.0.1)
   - MWFeedParser/NSString+HTML (1.0.1)
   - OCHamcrest (4.0.1)
-  - OCMock (2.2.4)
+  - OCMock (3.1.1)
   - ODRefreshControl (1.1.0)
 
 DEPENDENCIES:
@@ -77,7 +77,7 @@ SPEC CHECKSUMS:
   MTStatusBarOverlay: f1fef7143ed3e9ce3d2c6ee3f297079e5cab905f
   MWFeedParser: 003cbf5398e99a7f2057fbe9583054fd1b84be72
   OCHamcrest: b464725bbb48d0f1cd9c6f4ec3cb35fe0c4f2b94
-  OCMock: 6db79185520e24f9f299548f2b8b07e41d881bd5
+  OCMock: f6cb8c162ab9d5620dddf411282c7b2c0ee78854
   ODRefreshControl: 7bc75258d9dba1f93c4e34654d1e4b5aa39529f0
 
 COCOAPODS: 0.33.1

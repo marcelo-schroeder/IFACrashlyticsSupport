@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2EC5EE73-4120-4B30-AA07-92EB02D85362</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IFACrashlyticsSupport</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05065DD1F2B3B364EE61C9F826CBB5FF6480B34A</key>
+		<string>https://bitbucket.org/marcelo_schroeder/ifacrashlyticssupport.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IFACrashlyticsSupport.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05065DD1F2B3B364EE61C9F826CBB5FF6480B34A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/marcelo_schroeder/ifacrashlyticssupport.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05065DD1F2B3B364EE61C9F826CBB5FF6480B34A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05065DD1F2B3B364EE61C9F826CBB5FF6480B34A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IFACrashlyticsSupport_development</string>
+		</dict>
+	</array>
+</dict>
+</plist>

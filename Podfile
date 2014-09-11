@@ -1,4 +1,4 @@
-platform :ios, '7.0'
+platform :ios, '8.0'
 workspace 'IFACrashlyticsSupport'
 xcodeproj 'IFACrashlyticsSupport/IFACrashlyticsSupport.xcodeproj'
 link_with 'IFACrashlyticsSupportTests'
