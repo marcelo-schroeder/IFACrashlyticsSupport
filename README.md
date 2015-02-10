@@ -7,7 +7,7 @@ This library has been used in a few projects for my clients.
 
 The easiest is to add the source code as a Git submodule. Please follow the steps below (it assumes the use of an Xcode workspace):
 
-1. Add the following URL to your project as a Git submodule: https://bitbucket.org/marcelo_schroeder/ifacrashlyticssupport.git
+1. Add the following URL to your project as a Git submodule: https://github.com/marcelo-schroeder/IFACrashlyticsSupport.git
 2. Add "IFACrashlyticsSupport.xcodeproj" to your Xcode workspace.
 3. Add "libIFACrashlyticsSupport.a" to the "Build Phases"/"Link Binary With Libraries" section of your app's target.
 4. In Xcode, add the following entry to "User Header Search Paths" in the "Build Settings" section of the desired target: "${PROJECT_DIR}/../submodules/IFACrashlyticsSupport/IFACrashlyticsSupport" (the actual location may vary and it will depend on where the Git submodule is in the file system). Set the entry to "recursive".
