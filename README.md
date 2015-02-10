@@ -17,8 +17,7 @@ The easiest is to add the source code as a Git submodule. Please follow the step
 In your application delegate, import "IFACrashlyticsSupportManager.h". Then, as the first thing in application:didFinishLaunchingWithOptions:, add the following line:
 
 
-```
-#!Objective-C
+```Objective-C
 [[IFACrashlyticsSupportManager sharedInstance] configureCrashReportingWithUserInfo:nil];
 ```
 
